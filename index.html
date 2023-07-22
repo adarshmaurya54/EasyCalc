@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="author">Made by <span class="name">Adarsh Maurya</span></div>
+        <div class="inner-container" data-tilt>
+            <div class="upper-btns">
+                <div title="Close" class="close btn"></div>
+                <div title="Minimise, which is currently not working yet :(" class="mini btn"></div>
+                <div title="Maximize, which is currently not working yet :(" class="maxi btn"></div>
+            </div>
+            <div class="result-display">
+                <div class="screen screen1">
+                    &nbsp;
+                </div>
+                <div class="screen screen2">
+                   
+                </div>
+            </div>
+            <div class="calculator-btns">
+                <table>
+                    <tr>
+                        <td onclick="calculate(this)" id="clear">AC</td>
+                        <td onclick="calculate(this)">+/-</td>
+                        <td onclick="calculate(this)">%</td>
+                        <td onclick="calculate(this)">÷</td>
+                    </tr>
+                    <tr>
+                        <td onclick="calculate(this)">7</td>
+                        <td onclick="calculate(this)">8</td>
+                        <td onclick="calculate(this)">9</td>
+                        <td onclick="calculate(this)">×</td>
+                    </tr>
+                    <tr>
+                        <td onclick="calculate(this)">4</td>
+                        <td onclick="calculate(this)">5</td>
+                        <td onclick="calculate(this)">6</td>
+                        <td onclick="calculate(this)">-</td>
+                    </tr>
+                    <tr>
+                        <td onclick="calculate(this)">1</td>
+                        <td onclick="calculate(this)">2</td>
+                        <td onclick="calculate(this)">3</td>
+                        <td onclick="calculate(this)">+</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" onclick="calculate(this)">0</td>
+                        <td onclick="calculate(this)">.</td>
+                        <td onclick="calc(this)">=</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/vanilla-tilt.js"></script>
+</body>
+</html>
