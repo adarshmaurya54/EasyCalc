@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-@font-face {
-    font-family:"Occupied";
-    src: url("../calculator_font/digital-7.regular.ttf.otf") format("otf");
-    font-weight:normal;
-    font-style:normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 * {
     padding: 0; 
     margin: 0;
@@ -86,7 +81,7 @@
 .screen {
     text-align: right;
     overflow: auto;
-    font-family: "Occupied";
+    font-family: 'Inconsolata', monospace;
 }
 
 .screen1 {
